@@ -1,0 +1,27 @@
+.env
+!.env.example
+
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# conda虚拟环境
+venv/
+.venv/
+env/
+
+# IDE工具文件
+.idea/
+.vscode/
+*.swp
+*.bak
+
+# 日志
+*.log
+
+# 打包产物
+dist/
+build/
+*.egg-info/
